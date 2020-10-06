@@ -12,10 +12,19 @@ body {
   /* Center the search */
   .search-center {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 40%;
+}
+
+@media only screen and (max-width: 760px) {
+    .search-center{
+        top: 50%;
+        width: 80%;
+    }
+    
+    
 }
 
  
